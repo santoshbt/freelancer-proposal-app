@@ -18,28 +18,29 @@ var DocumentsComponent = (function () {
                 description: 'First doc',
                 file_url: 'http://google.com',
                 updated_at: '23/12/16',
-                image_url: 'http://google.com',
+                image_url: 'http://lorempixel.com/400/200',
             },
             {
                 title: 'My Second Doc',
                 description: 'First doc',
                 file_url: 'http://google.com',
                 updated_at: '23/12/16',
-                image_url: 'http://google.com',
+                image_url: 'http://lorempixel.com/400/200',
             },
             {
                 title: 'My Third Doc',
                 description: 'First doc',
                 file_url: 'http://google.com',
                 updated_at: '23/12/16',
-                image_url: 'http://google.com',
+                image_url: 'http://lorempixel.com/400/200',
             }];
     }
     DocumentsComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: 'documents',
-            templateUrl: 'documents.component.html'
+            templateUrl: 'documents.component.html',
+            styleUrls: ['documents.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], DocumentsComponent);
